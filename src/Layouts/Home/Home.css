@@ -1,0 +1,15 @@
+.main_Wrapper {
+  height: 100%;
+}
+
+.main_WrapperImg {
+  height: 100%;
+  margin-top: 20rem;
+  margin-left: 5rem;
+}
+
+.save_button {
+  height: 2.5rem;
+  background-color: black;
+  color: rgb(255, 255, 255);
+}

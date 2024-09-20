@@ -1,0 +1,17 @@
+.input_Email {
+  height: 42px;
+  padding: 8px 16px;
+  background-color: #fff;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: solid 2px rgba(0, 0, 0, 0.7) !important;
+}
+
+.input_Email:focus {
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: solid 2px rgba(0, 0, 0, 0.7) !important;
+  outline: none !important;
+}

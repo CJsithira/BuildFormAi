@@ -1,0 +1,13 @@
+.buttonWrapper {
+  height: 1.8rem;
+}
+
+.active {
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  border-radius: 4px;
+}
+
+.mainWrapper {
+  background-color: rgb(235, 235, 235);
+}

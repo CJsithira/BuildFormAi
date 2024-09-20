@@ -1,0 +1,21 @@
+.stepsFont {
+  font-size: 20px;
+}
+
+.discriptionText {
+  font-size: 1.05rem;
+  color: #888787;
+}
+
+.sideBar_Feilds {
+  height: 3rem;
+  background-color: #eeeeee;
+}
+
+.sideBar_Feilds:hover {
+  background-color:#D3D3D3
+}
+
+.upperWrapper{
+  height: 90%;
+}
