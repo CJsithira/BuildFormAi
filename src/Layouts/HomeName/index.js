@@ -24,7 +24,7 @@ export default function HomeName() {
             type="button"
             className="save_button col-2 d-flex flex-row border rounded-4 justify-content-center align-items-center gap-2"
           >
-            <span className="fs-5" onClick={onClickStart}>Start</span>
+            <span className="fs-5" onClick={onClickStart}>Next</span>
           </div>
         </div>
     </div>
