@@ -145,7 +145,7 @@ export default function Welcome() {
             onClick={handleRemoveImage}
             className="col-4 d-flex flex-row border rounded-3 justify-content-center align-items-center gap-2 mt-2"
           >
-            <span className="uploadButton fw-semibold">Remove Image</span>
+            <span className="uploadButton ">Remove Image</span>
           </div>
         </div>
       )}

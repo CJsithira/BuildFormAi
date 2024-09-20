@@ -5,6 +5,7 @@ import RightArrow from "../../Assets/chevron-right.svg";
 import SettingIcon from "../../Assets/gear-fill.svg";
 import ListIcon from "../../Assets/list.svg";
 import PlusIcon from "../../Assets/plus-lg.svg";
+import CloudIcon from "../../Assets/cloud-fill.svg"
 import DeleteIcon from "../../Assets/trash.svg";
 import X_Icon from "../../Assets/x.svg";
 import ButtonSection from "../Button_Section/index";
@@ -94,25 +95,9 @@ export default function Sidebar() {
             <img type="button" src={X_Icon} alt="X_Icon" />
           </div>
         </div>
-        <div className="mt-5">
-        <div
-          type="button"
-          onClick={togglePopup}
-          className="col-4 d-flex flex-row border rounded-3 justify-content-center align-items-center gap-2"
-        >
-          <img src={PlusIcon} alt="PlusIcon" />
-          <span>Add Field</span>
-        </div>
-        <hr></hr>
-      <div
-          type="button"
-          onClick={() => handleButtonClick("Welcome Screen")}
-          className="sideBar_Feilds rounded-2 d-flex justify-content-center align-items-center"
-        >
-          <div className="fs-6 text-center">End Screen</div>
-        </div>
-      </div>
-
+        
+        
+      
         {buttons.map((btn, index) => (
           <div
             key={index}
@@ -129,6 +114,25 @@ export default function Sidebar() {
             </div>
           </div>
         ))}
+        <div className="mt-5">
+        <div
+          type="button"
+          onClick={togglePopup}
+          className="col-4 d-flex flex-row border rounded-3 justify-content-center align-items-center gap-2"
+        >
+          <img src={PlusIcon} alt="PlusIcon" />
+          <span>Add Field</span>
+        </div>
+        <hr></hr>
+        <div
+          type="button"
+          onClick={() => handleButtonClick("Welcome Screen")}
+          className="sideBar_Feilds rounded-2 d-flex justify-content-center align-items-center"
+        >
+          <div className="fs-6 text-center">End Screen</div>
+        </div>
+      </div>
+
       </div>
       
       {showPopup && <Popup onClick={toggleClose} addButton={addButton} />}
@@ -139,7 +143,7 @@ export default function Sidebar() {
           type="button"
           className="save_button  col-5 d-flex flex-row border rounded-4 justify-content-center align-items-center gap-2"
         >
-          <img src={PlusIcon} alt="PlusIcon" />
+          <img src={CloudIcon} alt="saveIcon" />
           
           <span className="fs-10 ">Save & Publish</span>
         </div>
